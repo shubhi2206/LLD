@@ -5,6 +5,6 @@ public class Demo {
         BasePizza basePizza = new Mushroom(new Extracheese(new Farmhouse()));
         System.out.println(basePizza.cost());
 
-        
+
     }
 }

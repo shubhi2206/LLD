@@ -33,6 +33,12 @@ class Demo{
         for(Vehicle v : vehicleList)
             System.out.println(v.numberOfWheels().toString());
 
+        List<EngineVehicle> ev = new ArrayList<>();
+        ev.add(new Car());
+        for(EngineVehicle e : ev){
+            System.out.println(e.numberOfWheels().toString());
+        }
+
             //Compile Time Eror
 //        for(Vehicle v : vehicleList)
 //            System.out.println(v.hasEngine());
