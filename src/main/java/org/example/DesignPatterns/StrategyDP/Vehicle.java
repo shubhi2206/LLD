@@ -6,6 +6,10 @@ public class Vehicle {
         this.driveStrategy = driveStrategy;
     }
 
+    public Vehicle() {
+
+    }
+
     public void drive(){
         driveStrategy.drive();
     }
